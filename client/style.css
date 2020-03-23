@@ -1,0 +1,440 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(72, 72, 72);
+}
+
+.ReservationForm {
+  border: rgb(228, 228, 228) solid 1px;
+  width: 326px;
+  height: 363px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.ReservationFormWithCalculator {
+  border: rgb(228, 228, 228) solid 1px;
+  width: 326px;
+  height: 461px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.ReservationHeader {
+  border-bottom: rgb(228, 228, 228) solid 1px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ReservationDateSelector {
+  height: 64px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.CheckinDateCalBorder {
+  border: rgb(228, 228, 228) solid 1px;
+}
+
+.GuestsSelector {
+  height: 64px;
+  padding-top: 7px;
+}
+
+.checkinandout {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.guestbutton {
+  border: rgb(228, 228, 228) solid 1px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.PaymentCalculator {
+  height: 90px
+}
+
+.rateLine {
+  border-bottom: rgb(228, 228, 228) solid 1px;
+  color: rgb(72, 72, 72);
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 326px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.serviceFeeLine {
+  border-bottom: rgb(228, 228, 228) solid 1px;
+  color: rgb(72, 72, 72);
+  width: 326px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.totalLine {
+  color: rgb(22, 22, 22);
+  font-weight: 900;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.calcLeft {
+  float: left;
+  width: 280px;
+}
+
+.calcRight {
+  float: right;
+  width: 45px;
+  text-align: right;
+}
+
+.ReserveButtonContainer {
+  padding-top: 35px;
+  height: 74px;
+}
+
+.ReserveButton {
+  color: white;
+  background-color: rgb(255, 90, 95);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 282px;
+  height: 26px;
+  border-radius: 4px;
+}
+
+.selctionDropDown {
+  position: absolute;
+  width: 294px;
+  height: 300px;
+  background-color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px;
+  border: rgb(228, 228, 228) solid 1px;
+  border-top: rgb(0, 132, 137) solid 2px;
+}
+
+.ageRange {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.ageRangeDescription {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  justify-content: left;
+}
+
+.plusContainer {
+  width: 50px;
+  height: 30px;
+}
+
+.plus {
+  border: rgb(0, 132, 137) solid 1px; 
+  color: rgb(0, 132, 137);
+  justify-content: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.minusContainer {
+  width: 50px;
+  height: 30px;
+}
+
+.minus {
+  border: rgb(0, 132, 137) solid 1px; 
+  color: rgb(0, 132, 137);
+  justify-content: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.lightMinus {
+  border:  rgb(195, 217, 219) solid 1px; 
+  color: rgb(195, 217, 219);
+  justify-content: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.lightPlus {
+  border:  rgb(195, 217, 219) solid 1px; 
+  color: rgb(195, 217, 219);
+  justify-content: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.guestNumber {
+  width: 15px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.guestCategory {
+  font-weight: 900;
+  width: 174px;
+}
+
+.guestCategoryDescription {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+
+#price {
+  font-size: 22px;
+  font-weight: 1000;
+}
+
+#text {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#reviews-amount {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(118, 118, 118);
+}
+
+#arrow {
+  width: 24px;
+}
+
+#numberofguests {
+  font-size: 17px;
+  color: rgb(118, 118, 118);
+  width: 276px;
+  margin-top: 4px;
+}
+
+#downarrow {
+  height: 16px;
+  width: 16px;
+}
+
+#reserve {
+  font-size: 16px;
+  font-weight: 1000;
+  text-align: center;
+  align-content: center;
+  margin-top: 4px;
+}
+
+#buttonmessage {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  font-weight: 700;
+}
+
+#star {
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  color: rgb(0, 132, 137);
+}
+
+#totalGuests {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#close {
+  padding: 8px;
+  width: 278px;
+  font-size: 16px;
+  color: rgb(0, 132, 137);
+  text-align: right;
+  font-weight: 900;
+}
+
+#adults {
+  margin-top: 12px;
+}
+
+.userImage {
+  object-fit: cover;
+  /* border: 1px solid #ddd; Gray border */
+  border-radius: 50%;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  height: 50px;
+  width: 50px; /* Set a small width */
+}
+/* *********************************
+search box
+********************************* */
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.search_line {
+  flex: 30%;
+  padding: 20px;
+  margin-right:5px;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Roboto;
+  color:rgb(73, 73, 73)
+  
+}
+
+
+.teal {
+  color: rgb(18, 132, 136)
+  
+}
+
+
+
+/* *********************************
+Rating Summary
+********************************* */
+
+.chartConatiner {
+  display: flex;
+  width:70%;
+  flex-wrap: wrap;
+}
+
+
+.chart {
+  flex: 50%
+  
+}
+
+.barHeader {
+  opacity: 0;
+  padding-top: 0;
+  margin-top: 0;
+  
+}
+
+/* *********************************
+Review
+********************************* */
+li {
+  list-style: none;
+  border-bottom-width: var(--border-rule-border-width, 1px) ;
+  border-bottom-color: var(--color-divider, #EBEBEB); 
+  border-bottom-style: solid ;
+}
+
+.thin_review {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.375em !important;
+  color: rgb(72, 72, 72) !important;
+  margin: 0px !important;
+  overflow-wrap: break-word !important;
+}
+
+.ReviewContainer {
+  margin-top: 24px;
+  display: flex;
+}
+
+  .reviewInfo {
+    flex: 90%;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+  }
+ 
+  .reviewImg {
+    flex: 10%;
+    align-self: flex-start;
+    
+  }
+  
+.userName {
+  
+  font-weight: 600;
+  font-family: Quicksand;
+}
+
+.date {
+  font-weight: 400;
+  font-family: Quicksand;
+  font-size: 14px;
+}
+
+
+.reviewSpacer {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+ /* REVIEW NAV BAR */
+
+ .reviewNav {
+  -webkit-box-pack: start !important;
+  -webkit-box-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.pagination {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
