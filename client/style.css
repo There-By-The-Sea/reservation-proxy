@@ -438,3 +438,22 @@ li {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+
+
+#headerimage {
+  width: 100%
+}
+
+#reservation-form {
+  width: 372px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 400px;
+  padding: 9%;
+}
+
+.grid-item {
+ padding: 10px;
+}
