@@ -22,6 +22,7 @@
   "homepage": "https://github.com/There-By-The-Sea/reservation-proxy#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3",
     "morgan": "^1.10.0"
   }
 }
